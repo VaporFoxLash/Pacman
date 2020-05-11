@@ -8,6 +8,6 @@ namespace Pacman.Classes
 {
     class Player
     {
-
+        // Player with lives, moves and ability to eat the food
     }
 }

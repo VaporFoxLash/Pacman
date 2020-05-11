@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using System;
-//using System.Windows.Forms;
+using System.Windows.Forms;
 
 namespace Pacman
 {
@@ -13,7 +13,7 @@ namespace Pacman
         public void NewGameBoardTest()
         {
             // Check default Game Board image has been created
-            GameBoard.CreateBoardPicture(new Form(),1);
+            GameBoard.CreateBoardPicture(new Form(), 1);
             Assert.AreNotEqual(null, GameBoard.BoardPicture.Image);
             Assert.AreEqual(0, GameBoard.BoardPicture.Left);
             Assert.AreEqual(50, GameBoard.BoardPicture.Top);

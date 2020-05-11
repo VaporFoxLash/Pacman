@@ -13,11 +13,5 @@ namespace Pacman
             GhostItem.CreateGhostsImages(new Form());
         }
 
-        [Test]
-        public void NewGhostTest()
-        {
-            // Check default Ghost image has been created
-            Assert.AreNotEqual(null, GhostItem.GhostImage[0].Image);
-        }
     }
 }
